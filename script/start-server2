@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT_DIR=${DIR}/..
+
+npx http-server ${ROOT_DIR}/server2 -p 9001

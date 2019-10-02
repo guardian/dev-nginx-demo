@@ -1,0 +1,7 @@
+name: dev-nginx-demo
+domain-root: my.proxy.server
+mappings:
+  - prefix: server1
+    port: 1234
+  - prefix: server2
+    port: 9001
